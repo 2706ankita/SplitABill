@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split-a-bill-indexPage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Roboto&family=Teko:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="introBox">
+        <img src="one.jpg" alt="intoBox background image.">
+        <h1>Split-A-Bill</h1>
+        <h4>Welcome to split bill application.</h4>
+        <p>
+            This is the fastest and easiest way to split the amount of your bill among your buddies.
+        </p>
+
+
+
+    </div>
+
+
+    <div class="formContainer">
+        <form action="" class="formStyle">
+            <div class="innerForm">
+                <p>Please enter the amount</p>
+                <input id="amountForm" type="text">
+
+                <p>How many buddies(person)?</p>
+                <input id="personForm" type="number">
+
+
+                <br> <br>
+
+                <button type="button" onclick="calBill()">Calculate</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="resultContainer">
+        <div class="innerresult">
+            <h2 id="Feedback"></h2>
+            <img src="bill.png" alt="Bill Icon.">
+
+            <h1 id="result"></h1>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="calBill.js"></script>
+</body>
+
+</html>
